@@ -14,7 +14,7 @@
 		4A0D5E4318C8161A0079F379 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A0D5E4218C8161A0079F379 /* main.m */; };
 		4A0D5E4718C8161A0079F379 /* SAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A0D5E4618C8161A0079F379 /* SAppDelegate.m */; };
 		4A0D5E4A18C8161A0079F379 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A0D5E4818C8161A0079F379 /* Main.storyboard */; };
-		4A0D5E4D18C8161A0079F379 /* SViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A0D5E4C18C8161A0079F379 /* SViewController.m */; };
+		4A0D5E4D18C8161A0079F379 /* SSigninViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A0D5E4C18C8161A0079F379 /* SSigninViewController.m */; };
 		4A0D5E4F18C8161A0079F379 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A0D5E4E18C8161A0079F379 /* Images.xcassets */; };
 		4A0D5E5618C8161A0079F379 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A0D5E5518C8161A0079F379 /* XCTest.framework */; };
 		4A0D5E5718C8161A0079F379 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A0D5E3618C816190079F379 /* Foundation.framework */; };
@@ -30,6 +30,10 @@
 		4A0D5E8018C859580079F379 /* StatusListener.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A0D5E7A18C859580079F379 /* StatusListener.m */; };
 		4A0D5E8218C85A530079F379 /* libnucleus.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A0D5E8118C85A530079F379 /* libnucleus.a */; };
 		4AAA34BE18C9595B0011E7CF /* libJSONKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A0D5EBA18C872CA0079F379 /* libJSONKit.a */; };
+		4AAA34C618C971A10011E7CF /* SWorkformViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AAA34C518C971A10011E7CF /* SWorkformViewController.m */; };
+		4AAA34CA18C971D20011E7CF /* SAttentionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AAA34C918C971D20011E7CF /* SAttentionViewController.m */; };
+		4AAA34CE18C971F00011E7CF /* SToolsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AAA34CD18C971F00011E7CF /* SToolsViewController.m */; };
+		4AAA34D218C9B92B0011E7CF /* currentUser.json in Resources */ = {isa = PBXBuildFile; fileRef = 4AAA34D118C9B92B0011E7CF /* currentUser.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,8 +58,8 @@
 		4A0D5E4518C8161A0079F379 /* SAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SAppDelegate.h; sourceTree = "<group>"; };
 		4A0D5E4618C8161A0079F379 /* SAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SAppDelegate.m; sourceTree = "<group>"; };
 		4A0D5E4918C8161A0079F379 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		4A0D5E4B18C8161A0079F379 /* SViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SViewController.h; sourceTree = "<group>"; };
-		4A0D5E4C18C8161A0079F379 /* SViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SViewController.m; sourceTree = "<group>"; };
+		4A0D5E4B18C8161A0079F379 /* SSigninViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SSigninViewController.h; sourceTree = "<group>"; };
+		4A0D5E4C18C8161A0079F379 /* SSigninViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSigninViewController.m; sourceTree = "<group>"; };
 		4A0D5E4E18C8161A0079F379 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		4A0D5E5418C8161A0079F379 /* smartITOMTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = smartITOMTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A0D5E5518C8161A0079F379 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -78,6 +82,13 @@
 		4A0D5E7A18C859580079F379 /* StatusListener.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StatusListener.m; sourceTree = "<group>"; };
 		4A0D5E8118C85A530079F379 /* libnucleus.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libnucleus.a; path = "../nucleus/bin/Debug-iphonesimulator/libnucleus.a"; sourceTree = "<group>"; };
 		4A0D5EBA18C872CA0079F379 /* libJSONKit.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libJSONKit.a; path = ../JSONKit/lib/simulator/libJSONKit.a; sourceTree = "<group>"; };
+		4AAA34C418C971A10011E7CF /* SWorkformViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWorkformViewController.h; sourceTree = "<group>"; };
+		4AAA34C518C971A10011E7CF /* SWorkformViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWorkformViewController.m; sourceTree = "<group>"; };
+		4AAA34C818C971D20011E7CF /* SAttentionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAttentionViewController.h; sourceTree = "<group>"; };
+		4AAA34C918C971D20011E7CF /* SAttentionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAttentionViewController.m; sourceTree = "<group>"; };
+		4AAA34CC18C971F00011E7CF /* SToolsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SToolsViewController.h; sourceTree = "<group>"; };
+		4AAA34CD18C971F00011E7CF /* SToolsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SToolsViewController.m; sourceTree = "<group>"; };
+		4AAA34D118C9B92B0011E7CF /* currentUser.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = currentUser.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,13 +152,16 @@
 		4A0D5E3C18C816190079F379 /* smartITOM */ = {
 			isa = PBXGroup;
 			children = (
+				4AAA34CF18C9AA720011E7CF /* Assets */,
+				4AAA34CB18C971DA0011E7CF /* Tools */,
+				4AAA34C718C971B50011E7CF /* Attention */,
+				4AAA34C018C9709C0011E7CF /* WorkPlatform */,
+				4AAA34BF18C970700011E7CF /* Signin */,
 				4A0D5E6D18C859310079F379 /* Core */,
 				4A0D5E6B18C822FC0079F379 /* Icon.png */,
 				4A0D5E4518C8161A0079F379 /* SAppDelegate.h */,
 				4A0D5E4618C8161A0079F379 /* SAppDelegate.m */,
 				4A0D5E4818C8161A0079F379 /* Main.storyboard */,
-				4A0D5E4B18C8161A0079F379 /* SViewController.h */,
-				4A0D5E4C18C8161A0079F379 /* SViewController.m */,
 				4A0D5E4E18C8161A0079F379 /* Images.xcassets */,
 				4A0D5E3D18C816190079F379 /* Supporting Files */,
 			);
@@ -201,6 +215,50 @@
 				4A0D5E7A18C859580079F379 /* StatusListener.m */,
 			);
 			name = Core;
+			sourceTree = "<group>";
+		};
+		4AAA34BF18C970700011E7CF /* Signin */ = {
+			isa = PBXGroup;
+			children = (
+				4A0D5E4B18C8161A0079F379 /* SSigninViewController.h */,
+				4A0D5E4C18C8161A0079F379 /* SSigninViewController.m */,
+			);
+			name = Signin;
+			sourceTree = "<group>";
+		};
+		4AAA34C018C9709C0011E7CF /* WorkPlatform */ = {
+			isa = PBXGroup;
+			children = (
+				4AAA34C418C971A10011E7CF /* SWorkformViewController.h */,
+				4AAA34C518C971A10011E7CF /* SWorkformViewController.m */,
+			);
+			name = WorkPlatform;
+			sourceTree = "<group>";
+		};
+		4AAA34C718C971B50011E7CF /* Attention */ = {
+			isa = PBXGroup;
+			children = (
+				4AAA34C818C971D20011E7CF /* SAttentionViewController.h */,
+				4AAA34C918C971D20011E7CF /* SAttentionViewController.m */,
+			);
+			name = Attention;
+			sourceTree = "<group>";
+		};
+		4AAA34CB18C971DA0011E7CF /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				4AAA34CC18C971F00011E7CF /* SToolsViewController.h */,
+				4AAA34CD18C971F00011E7CF /* SToolsViewController.m */,
+			);
+			name = Tools;
+			sourceTree = "<group>";
+		};
+		4AAA34CF18C9AA720011E7CF /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				4AAA34D118C9B92B0011E7CF /* currentUser.json */,
+			);
+			name = Assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -283,6 +341,7 @@
 				4A0D5E4F18C8161A0079F379 /* Images.xcassets in Resources */,
 				4A0D5E6C18C822FC0079F379 /* Icon.png in Resources */,
 				4A0D5E4118C8161A0079F379 /* InfoPlist.strings in Resources */,
+				4AAA34D218C9B92B0011E7CF /* currentUser.json in Resources */,
 				4A0D5E4A18C8161A0079F379 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -303,11 +362,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				4A0D5E4718C8161A0079F379 /* SAppDelegate.m in Sources */,
-				4A0D5E4D18C8161A0079F379 /* SViewController.m in Sources */,
+				4AAA34C618C971A10011E7CF /* SWorkformViewController.m in Sources */,
+				4A0D5E4D18C8161A0079F379 /* SSigninViewController.m in Sources */,
 				4A0D5E8018C859580079F379 /* StatusListener.m in Sources */,
+				4AAA34CA18C971D20011E7CF /* SAttentionViewController.m in Sources */,
 				4A0D5E7F18C859580079F379 /* ListenerSet.m in Sources */,
 				4A0D5E7D18C859580079F379 /* Contacts.m in Sources */,
 				4A0D5E7B18C859580079F379 /* MastEngine.m in Sources */,
+				4AAA34CE18C971F00011E7CF /* SToolsViewController.m in Sources */,
 				4A0D5E7E18C859580079F379 /* Failure.m in Sources */,
 				4A0D5E4318C8161A0079F379 /* main.m in Sources */,
 				4A0D5E7C18C859580079F379 /* ActionListener.m in Sources */,

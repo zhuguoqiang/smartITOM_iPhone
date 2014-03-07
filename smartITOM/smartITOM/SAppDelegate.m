@@ -6,30 +6,34 @@
 //  Copyright (c) 2014年 Apple002. All rights reserved.
 //
 
+
 #import "SAppDelegate.h"
+
 
 @implementation SAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    NSString *path = [[NSBundle mainBundle] pathForResource:@"currentUser" ofType:@"json"];
+  
+    NSString *json = [[NSString alloc] initWithContentsOfFile:path encoding:NSUTF8StringEncoding error:nil];
     
-    NSString *str = @"键";
-    NSString *value = @"值";
-    NSDictionary *dic = [NSDictionary dictionaryWithObjectsAndKeys:str,@"key", value, @"value", nil];
-    NSLog(@"%@",dic);
+    NSDictionary *dic = [json objectFromJSONString];
     
-    NSString *jsonstr = [dic JSONString];
-    NSLog(@"%@",jsonstr);   
+    //json解析出错，
     
-    
-    NSDictionary * DIC = [jsonstr objectFromJSONString];
-    NSLog(@"DIC = %@",DIC);
-    
-    JSONDecoder *decoder = [[JSONDecoder alloc]init];
-    NSData *data = [jsonstr dataUsingEncoding:NSUTF8StringEncoding];
-    NSDictionary *diction = [decoder objectWithData:data ];
-    NSLog(@"%@", diction);
-    
+    NSDictionary *currentDic  = [dic objectForKey:@"currentUser"];
+    NSString *username = [dic objectForKey:@"userName"];
+    NSLog(@"%@",username);
+    BOOL status = [[currentDic objectForKey:@"siginStatus"] boolValue];
+    if (status)
+    {
+        NSLog(@"当前用户已登录");
+    }
+    else {
+        NSLog(@"用户已注销");
+    }
+
     // Override point for customization after application launch.
     return YES;
 }
