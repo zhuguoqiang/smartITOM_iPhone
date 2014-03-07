@@ -12,6 +12,24 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    
+    NSString *str = @"键";
+    NSString *value = @"值";
+    NSDictionary *dic = [NSDictionary dictionaryWithObjectsAndKeys:str,@"key", value, @"value", nil];
+    NSLog(@"%@",dic);
+    
+    NSString *jsonstr = [dic JSONString];
+    NSLog(@"%@",jsonstr);   
+    
+    
+    NSDictionary * DIC = [jsonstr objectFromJSONString];
+    NSLog(@"DIC = %@",DIC);
+    
+    JSONDecoder *decoder = [[JSONDecoder alloc]init];
+    NSData *data = [jsonstr dataUsingEncoding:NSUTF8StringEncoding];
+    NSDictionary *diction = [decoder objectWithData:data ];
+    NSLog(@"%@", diction);
+    
     // Override point for customization after application launch.
     return YES;
 }

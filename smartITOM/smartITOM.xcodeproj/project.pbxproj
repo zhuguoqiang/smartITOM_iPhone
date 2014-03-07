@@ -22,6 +22,14 @@
 		4A0D5E6018C8161A0079F379 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4A0D5E5E18C8161A0079F379 /* InfoPlist.strings */; };
 		4A0D5E6218C8161A0079F379 /* smartITOMTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A0D5E6118C8161A0079F379 /* smartITOMTests.m */; };
 		4A0D5E6C18C822FC0079F379 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A0D5E6B18C822FC0079F379 /* Icon.png */; };
+		4A0D5E7B18C859580079F379 /* MastEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A0D5E7018C859580079F379 /* MastEngine.m */; };
+		4A0D5E7C18C859580079F379 /* ActionListener.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A0D5E7218C859580079F379 /* ActionListener.m */; };
+		4A0D5E7D18C859580079F379 /* Contacts.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A0D5E7418C859580079F379 /* Contacts.m */; };
+		4A0D5E7E18C859580079F379 /* Failure.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A0D5E7618C859580079F379 /* Failure.m */; };
+		4A0D5E7F18C859580079F379 /* ListenerSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A0D5E7818C859580079F379 /* ListenerSet.m */; };
+		4A0D5E8018C859580079F379 /* StatusListener.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A0D5E7A18C859580079F379 /* StatusListener.m */; };
+		4A0D5E8218C85A530079F379 /* libnucleus.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A0D5E8118C85A530079F379 /* libnucleus.a */; };
+		4AAA34BE18C9595B0011E7CF /* libJSONKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A0D5EBA18C872CA0079F379 /* libJSONKit.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +63,21 @@
 		4A0D5E5F18C8161A0079F379 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4A0D5E6118C8161A0079F379 /* smartITOMTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = smartITOMTests.m; sourceTree = "<group>"; };
 		4A0D5E6B18C822FC0079F379 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		4A0D5E6E18C859580079F379 /* MastPrerequisites.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MastPrerequisites.h; sourceTree = "<group>"; };
+		4A0D5E6F18C859580079F379 /* MastEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MastEngine.h; sourceTree = "<group>"; };
+		4A0D5E7018C859580079F379 /* MastEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MastEngine.m; sourceTree = "<group>"; };
+		4A0D5E7118C859580079F379 /* ActionListener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionListener.h; sourceTree = "<group>"; };
+		4A0D5E7218C859580079F379 /* ActionListener.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActionListener.m; sourceTree = "<group>"; };
+		4A0D5E7318C859580079F379 /* Contacts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Contacts.h; sourceTree = "<group>"; };
+		4A0D5E7418C859580079F379 /* Contacts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Contacts.m; sourceTree = "<group>"; };
+		4A0D5E7518C859580079F379 /* Failure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Failure.h; sourceTree = "<group>"; };
+		4A0D5E7618C859580079F379 /* Failure.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Failure.m; sourceTree = "<group>"; };
+		4A0D5E7718C859580079F379 /* ListenerSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListenerSet.h; sourceTree = "<group>"; };
+		4A0D5E7818C859580079F379 /* ListenerSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListenerSet.m; sourceTree = "<group>"; };
+		4A0D5E7918C859580079F379 /* StatusListener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StatusListener.h; sourceTree = "<group>"; };
+		4A0D5E7A18C859580079F379 /* StatusListener.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StatusListener.m; sourceTree = "<group>"; };
+		4A0D5E8118C85A530079F379 /* libnucleus.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libnucleus.a; path = "../nucleus/bin/Debug-iphonesimulator/libnucleus.a"; sourceTree = "<group>"; };
+		4A0D5EBA18C872CA0079F379 /* libJSONKit.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libJSONKit.a; path = ../JSONKit/lib/simulator/libJSONKit.a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +85,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4AAA34BE18C9595B0011E7CF /* libJSONKit.a in Frameworks */,
+				4A0D5E8218C85A530079F379 /* libnucleus.a in Frameworks */,
 				4A0D5E3918C816190079F379 /* CoreGraphics.framework in Frameworks */,
 				4A0D5E3B18C816190079F379 /* UIKit.framework in Frameworks */,
 				4A0D5E3718C816190079F379 /* Foundation.framework in Frameworks */,
@@ -103,6 +128,8 @@
 		4A0D5E3518C816190079F379 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4A0D5EBA18C872CA0079F379 /* libJSONKit.a */,
+				4A0D5E8118C85A530079F379 /* libnucleus.a */,
 				4A0D5E3618C816190079F379 /* Foundation.framework */,
 				4A0D5E3818C816190079F379 /* CoreGraphics.framework */,
 				4A0D5E3A18C816190079F379 /* UIKit.framework */,
@@ -114,6 +141,7 @@
 		4A0D5E3C18C816190079F379 /* smartITOM */ = {
 			isa = PBXGroup;
 			children = (
+				4A0D5E6D18C859310079F379 /* Core */,
 				4A0D5E6B18C822FC0079F379 /* Icon.png */,
 				4A0D5E4518C8161A0079F379 /* SAppDelegate.h */,
 				4A0D5E4618C8161A0079F379 /* SAppDelegate.m */,
@@ -153,6 +181,26 @@
 				4A0D5E5E18C8161A0079F379 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4A0D5E6D18C859310079F379 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				4A0D5E6E18C859580079F379 /* MastPrerequisites.h */,
+				4A0D5E6F18C859580079F379 /* MastEngine.h */,
+				4A0D5E7018C859580079F379 /* MastEngine.m */,
+				4A0D5E7118C859580079F379 /* ActionListener.h */,
+				4A0D5E7218C859580079F379 /* ActionListener.m */,
+				4A0D5E7318C859580079F379 /* Contacts.h */,
+				4A0D5E7418C859580079F379 /* Contacts.m */,
+				4A0D5E7518C859580079F379 /* Failure.h */,
+				4A0D5E7618C859580079F379 /* Failure.m */,
+				4A0D5E7718C859580079F379 /* ListenerSet.h */,
+				4A0D5E7818C859580079F379 /* ListenerSet.m */,
+				4A0D5E7918C859580079F379 /* StatusListener.h */,
+				4A0D5E7A18C859580079F379 /* StatusListener.m */,
+			);
+			name = Core;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,7 +304,13 @@
 			files = (
 				4A0D5E4718C8161A0079F379 /* SAppDelegate.m in Sources */,
 				4A0D5E4D18C8161A0079F379 /* SViewController.m in Sources */,
+				4A0D5E8018C859580079F379 /* StatusListener.m in Sources */,
+				4A0D5E7F18C859580079F379 /* ListenerSet.m in Sources */,
+				4A0D5E7D18C859580079F379 /* Contacts.m in Sources */,
+				4A0D5E7B18C859580079F379 /* MastEngine.m in Sources */,
+				4A0D5E7E18C859580079F379 /* Failure.m in Sources */,
 				4A0D5E4318C8161A0079F379 /* main.m in Sources */,
+				4A0D5E7C18C859580079F379 /* ActionListener.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,9 +393,14 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LIBRARY_SEARCH_PATHS = (
+					"../nucleus/bin/Debug-iphonesimulator",
+					../JSONKit/lib/simulator,
+				);
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphoneos6.0;
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "../nucleus/include ../JSONKit/include";
 			};
 			name = Debug;
 		};
@@ -372,8 +431,13 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
-				SDKROOT = iphoneos6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LIBRARY_SEARCH_PATHS = (
+					"../nucleus/bin/Debug-iphonesimulator",
+					../JSONKit/lib/simulator,
+				);
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "../nucleus/include ../JSONKit/include";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -386,6 +450,12 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "smartITOM/smartITOM-Prefix.pch";
 				INFOPLIST_FILE = "smartITOM/smartITOM-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"../nucleus/bin/Debug-iphonesimulator",
+					/Users/apple002/Documents/gitHub_openSource/smartITOM/smartITOM_iPhone/JSONKit/lib/universal,
+					/Users/apple002/Documents/gitHub_openSource/smartITOM/smartITOM_iPhone/JSONKit/lib/simulator,
+				);
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -399,6 +469,12 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "smartITOM/smartITOM-Prefix.pch";
 				INFOPLIST_FILE = "smartITOM/smartITOM-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"../nucleus/bin/Debug-iphonesimulator",
+					/Users/apple002/Documents/gitHub_openSource/smartITOM/smartITOM_iPhone/JSONKit/lib/universal,
+					/Users/apple002/Documents/gitHub_openSource/smartITOM/smartITOM_iPhone/JSONKit/lib/simulator,
+				);
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -465,6 +541,7 @@
 				4A0D5E6718C8161A0079F379 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4A0D5E6818C8161A0079F379 /* Build configuration list for PBXNativeTarget "smartITOMTests" */ = {
 			isa = XCConfigurationList;
@@ -473,6 +550,7 @@
 				4A0D5E6A18C8161A0079F379 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
